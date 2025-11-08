@@ -11,7 +11,6 @@ public class coin_toss{
             System.out.print(ans+" ");
             return;
         }
-
         print_coin_outcome(n-1, ans+'H');
         print_coin_outcome(n-1, ans+'T');
     }
